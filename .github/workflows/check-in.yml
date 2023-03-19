@@ -15,9 +15,7 @@ on:
   # -- 24 Feb 2023
   # changed to multi cron schedule
   schedule:
-    - cron: "1 0 * * 1,5"
-    - cron: "3 0 * * 2,3"
-    - cron: "2 0 * * 4"
+    - cron: "1 0 * * 1,2,5"
   workflow_dispatch:
 
 jobs:
