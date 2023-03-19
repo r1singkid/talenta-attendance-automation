@@ -8,9 +8,7 @@ on:
   # -- 24 Feb 2023
   # changed to multi cron schedule
   schedule:
-    - cron: "6 12 * * 1,5"
-    - cron: "3 12 * * 2,3"
-    - cron: "9 12 * * 4"
+    - cron: "6 12 * * 1-2,5"
   workflow_dispatch:
 
 jobs:
